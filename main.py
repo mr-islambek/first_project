@@ -1,5 +1,5 @@
 def sum(value1, value2):
-    return f"{value1 + value2}"
+    return f"Result sum: {value1 + value2}"
 
 
 x1 = int(input("Enter your values 1: "))
