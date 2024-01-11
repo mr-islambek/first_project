@@ -1,10 +1,7 @@
-print("Hello GitHub!")
-print("Salam Git!")
+def sum(value1, value2):
+    return f"{value1 + value2}"
 
 
-def echo(value):
-    return f"{value}"
-
-
-x = input("Enter values: ")
-print(echo(x))
+x1 = int(input("Enter values 1: "))
+x2 = int(input("Enter values 2: "))
+print(sum(x1, x2))
